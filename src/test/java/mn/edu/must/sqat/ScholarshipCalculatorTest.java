@@ -80,4 +80,12 @@ class ScholarshipCalculatorTest {
     @Test void scholarshipBelowThreeZero() {
         assertEquals(0, calc.scholarship(2.9, 20, false));
     }
+
+    // ---- gpa(): давталтын заагийн тестүүд ----
+    @Test void gpaSingleScore() {      // 1 давталт
+        assertEquals(4.0, calc.gpa(new double[]{95}), 0.001);
+    }
+    @Test void gpaManyScores() {       // 2+ давталт
+        assertEquals(2.5, calc.gpa(new double[]{95, 85, 75, 65}), 0.001);
+    }
 }
