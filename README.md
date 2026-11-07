@@ -119,7 +119,7 @@ Branch хамралт 100% байсан ч энэ алдаа үл үзэгдэг
 | `240df9e` | Part D: add boundary tests that expose letterGrade bug |
 | `5fb7b35` | Fix letterGrade: > 60 -> >= 60, spec says 60 is D |
 | `7571006` | Add final results and README |
-| хамгийн сүүлийн | Remove accidentally committed file `60` |
+| `91d0634` | Remove accidentally committed file `60` |
 
 ---
 
