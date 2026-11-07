@@ -118,7 +118,8 @@ Branch хамралт 100% байсан ч энэ алдаа үл үзэгдэг
 | `0c0597e` | Part C: loop boundary tests (0/1/2+) |
 | `240df9e` | Part D: add boundary tests that expose letterGrade bug |
 | `5fb7b35` | Fix letterGrade: > 60 -> >= 60, spec says 60 is D |
-| (сүүлийн) | Add final results and README |
+| `7571006` | Add final results and README |
+| хамгийн сүүлийн | Remove accidentally committed file `60` |
 
 ---
 
