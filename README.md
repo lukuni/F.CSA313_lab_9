@@ -27,3 +27,12 @@ OS name: "mac os x", version: "26.1", arch: "aarch64", family: "mac"
 
 Улаан мөрүүд нь голдуу алдааны замууд (IllegalArgumentException шидэх мөрүүд) болон happy-path тестэд ороогүй дүнгүүд (letterGrade-ийн C, D, F, gpa-ийн switch-ийн C, D, default салаа, scholarship-ийн сахилгын зөрчил ба 0 буцаах замууд) байна.
 Шар ромботой мөрүүд нь `||` болон `&&` нөхцөлтэй if-үүд бөгөөд нөхцөл тус бүрийн зөвхөн нэг утга (үнэн эсвэл худал) шалгагдсан тул салаа хагас дутуу хамрагдсан.
+
+## Хэсэг B: CFG ба 100% branch хамралт
+
+![scholarship() CFG](cfg.png)
+
+scholarship() функцийн CFG-г draw.io дээр гараар зурсан, ирмэг бүр дээр түүнийг дайрах тестийн нэрийг бичсэн. Бүтцийн лавлах загварыг AI туслахаас авсан.
+
+Нийт 22 тест шаардагдсан (results/mvn-verify-B.txt: Tests run: 22).
+results/jacoco-B.csv-д BRANCH_MISSED = 0, LINE_MISSED = 0 (Branch 41/41, Line 25/25).
